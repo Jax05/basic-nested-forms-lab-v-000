@@ -14,7 +14,6 @@ class RecipesController < ApplicationController
   end
 
   def create
-    raise params.inspect
     @recipe = Recipe.new(recipe_params)
 
     if @recipe.save
