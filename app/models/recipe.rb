@@ -6,5 +6,5 @@ class Recipe < ActiveRecord::Base
   #   ingredient_attributes.each do |i, ingredient_attribute|
   #     self.ingredients.build(ingredient_attribute)
   #   end
-  end
+  # end
 end
