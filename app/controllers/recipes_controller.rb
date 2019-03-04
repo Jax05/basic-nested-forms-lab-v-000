@@ -11,10 +11,10 @@ class RecipesController < ApplicationController
     @recipe = Recipe.new
     @recipe.ingredients.build()
     @recipe.ingredients.build()
-    raise params.inspect
   end
 
   def create
+    raise params.inspect
     @recipe = Recipe.new(recipe_params)
 
     if @recipe.save
